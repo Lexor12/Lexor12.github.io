@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--ELABORADO POR Kenneth Mace (Lexor12)-->
+<!DOCTYPE html>
 <html lang="es">
     <head>
         <link rel="stylesheet" href="styles.css">
@@ -8,18 +8,22 @@
     </head>
     <body>
         <div id="cv">
-        <header class="cv-header"><!--ELABORADO POR Kenneth Mace (Lexor12)-->
+        <header class="cv-header">
             <div class="cv-header__info" id="info">
                 <h1>Desarrollador de Software</h1>
-                <h2>Kenneth Mace(Lexor12)</h2>
+                <h2>Kenneth M.(Lexor12)</h2>
+                <p><b>Correo:</b> proximamente....</p>
                 <p><b>Sobre mi:</b> Soy Desarrollador de Software desde hace +4 años, tengo conocimientos en Programación WEB, Movil, Redes, Ciberseguridad, Sistemas Embebidos, Electrónica básica y más.</p>
             </div>
+            <div class="cv-header__imagen" >
+                <!--- No pienso publicar mi cara en Github aun JAJAJAJ-->
+            </div>
         </header>
-        <main>
-            <div class="cv-main">
-                <article class="cv-main__experiencia contenidos">
-                    <h2>Experiencia</h2>
+        <main class="cv-main">
+            <article class="cv-main__experiencia contenidos">
+                <h2>Experiencia</h2>
                     <section class="cv-main__experiencia__section contenidos-section">
+                        <p>No tengo experiencia en empresas o trabajos formales, pero tengo proyectos personales.</p>
                         <h4>Proyectos escolares.</h4>
                         <ul>
                             <li><b>DnDRPG:</b> Videojuego creado en C# con Windows Forms para Windows.</li>
@@ -34,20 +38,21 @@
                             <li><b>Otros proyectos:</b> Sistemas Embebidos, Aplicaciones de Windows, Páginas web.</li>
                         </ul>
                     </section>
-                </article><!--ELABORADO POR Kenneth Mace (Lexor12)-->
+                </article>
                 <article class="cv-main__habilidades contenidos">
                     <h2>Habilidades o Skills</h2>
                     <section class="cv-main__habilidades__section contenidos-section">
                         <h4>Lenguajes</h4>
-                        <ul>
-                            <li>C++</li>
-                            <li>C#</li>
-                            <li>Python</li>
-                            <li>Kotlin</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>SQL</li>
-                        </ul>
+                        <div class="cv-main__habilidades__section__progress">
+                            <div class="skill"><label for="cpp">C++</label><progress id="cpp" value="100" max="100"></progress><span>100%</span></div>
+                            <div class="skill"><label for="csharp">C#</label><progress id="csharp" value="80" max="100"></progress><span>80%</span></div>
+                            <div class="skill"><label for="html">HTML</label><progress id="html" value="70" max="100"></progress><span>70%</span></div>
+                            <div class="skill"><label for="sql">SQL</label><progress id="sql" value="70" max="100"></progress><span>70%</span></div>
+                            <div class="skill"><label for="python">Python</label><progress id="python" value="50" max="100"></progress><span>50%</span></div>
+                            <div class="skill"><label for="kotlin">Kotlin</label><progress id="kotlin" value="40" max="100"></progress><span>40%</span></div>
+                            <div class="skill"><label for="css">CSS</label><progress id="css" value="40" max="100"></progress><span>40%</span></div>                
+                            <div class="skill"><label for="JavaScript">JavaScript</label><progress id="JavaScript" value="40" max="100"></progress><span>40%</span></div>   
+                        </div>
                         <h4>Tecnologías</h4>
                         <ul>
                             <li>Git</li>
@@ -62,20 +67,20 @@
                             <li>Estructuras de datos</li>
                             <li>Ciberseguridad</li>
                             <li>Bases de datos Relacionales</li>
-                        </ul>
+                            <li>Patrones de diseño</li>
                         <h4>Blandas</h4>
                         <ul>
                             <li>Se trabajar en equipo</li>
                             <li>Puedo realizar proyectos bajo presión</li>
                             <li>Puedo aprender tecnologías, lenguajes, etc en plazos cortos</li>
                         </ul>
-                    </section><!--ELABORADO POR Kenneth Mace (Lexor12)-->
+                    </section>
                 </article>
                 <article class="cv-main__educacion contenidos">
                     <h2>Educación Relevante</h2>
                     <section class="cv-main__educacion__section contenidos-section">
-                        <h4>Tecnólogo en Desarrollo de Software (2023 - 2027) </h4>
-                        <p>Actualmente me encuentro cursando esta carrera tecnológica.</p>
+                        <h4>Tecnologo en Desarrollo de Software (2023 - 2027) </h4>
+                        <p>Actualmente me encuentro cursando el bachillerato tecnológico.</p>
                     </section>
                 </article>
                 <article class="cv-main__certificados contenidos">
@@ -93,7 +98,7 @@
                             <li>Certificados varios de BBVA - Superate con Fundacion BBVA</li>
                         </ul>
                     </section>
-                </article><!--ELABORADO POR Kenneth Mace (Lexor12)-->
+                </article>
                 <article class="cv-main__dedicacion contenidos">
                     <h2>Dedicación</h2>
                     <section class="cv-main__dedicacion__section contenidos-section">
@@ -102,15 +107,15 @@
                         continuamente que involucran estas ramas, pero en vacaciones realizo proyectos personales.</p>
                         <p>Actulamente tengo un conocimiento avanzado en informática, tengo conocimientos en multiples lenguajes de programación, frameworks y tecnologías.</p>
                     </section>
-                </article>
-            </div>
+            </article>
         </main>
         <footer class="cv-footer">
             <p class="cv-footer__note">Disponible para oportunidades laborales</p>
             <div id="enlaces">
                 <p class="cv-footer__repo"><a href="https://github.com/Lexor12" target="_blank">GitHub</a></p>
-            </div><!--ELABORADO POR Kenneth Mace (Lexor12)-->
-            <p>&copy; 2026 Kenneth Mace. Todos los derechos reservados.</p>
+                <!--<p class="cv-footer__repo"><a href="mailto:ya dije que proximamente dije JAJAJA">Enviar Correo</a></p>-->
+            </div>
+            <p>&copy; 2026 Kenneth M. Todos los derechos reservados.</p>
         </footer>
         </div>
     </body>
